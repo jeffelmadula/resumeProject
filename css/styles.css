@@ -1,0 +1,57 @@
+/* body */
+
+body {
+    margin: 0;
+    padding: 0;
+    font: 12pt "Tahoma";
+    padding: 1rem;
+  }
+
+
+/* Whole page container */
+
+.wholeContainer{
+    background-color: #FEFAE0;
+    width: 62.5rem;
+    margin: auto;
+    justify-content: center;
+    padding: 30px;
+    border: 1px solid beige;
+    box-shadow: 10px 10px gray;
+
+}
+
+/* header */
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.devName {
+    text-align: center;
+}
+
+.imgProfile {
+    width: 10rem;
+    border-radius: 50%;
+    padding-left: 20px;
+}
+
+
+/* middle */
+
+.bodyContainer{
+    display: flex;
+}
+
+.leftContainer{
+    flex: 50%
+}
+    
+.rightContainer{
+    flex: 50%
+}
+
+
+
